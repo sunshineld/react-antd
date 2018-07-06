@@ -1,0 +1,11 @@
+.containerK {
+    width: 100%;
+    display:flex;
+    padding-top: 20px;
+}
+.containerK .contentL {
+    width: 20%;
+}
+.containerK .contentR {
+    width: 80%;
+}

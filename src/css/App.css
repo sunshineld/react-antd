@@ -1,0 +1,56 @@
+.app {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+header {
+  width: 500px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+header h1 {
+  font-size: 40px;
+  color: rgb(12, 183, 226);
+}
+
+.navmenu {
+  width: 100%;
+  overflow: hidden;
+}
+.navmenu ul {
+  list-style: none;
+  float: right;
+}
+.navmenu li {
+  float: left;
+  width:100px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+}
+.navmenu li .link {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.navmenu li span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #000;
+  border-radius: 4px;
+  position: absolute;
+  right: -4px;
+  top: 18px;
+}
+.line {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+.active {
+ border: 2px solid #eee;
+ border-radius: 40px 2px 40px 2px;
+ background: #eee;
+}

@@ -1,0 +1,29 @@
+.content_h {
+    width: 100%;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.content_left {
+    float: left;
+    width: 75%;
+}
+.content_right {
+    float: right;
+    width: 20%;
+}
+.content_right .newTitle {
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    font-family: '宋体';
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 4px;
+}
+.content_right .newList {
+    list-style: none;
+}
+.content_right .newList li {
+    border-bottom: 1px dotted #ccc;
+    height: 35px;
+    line-height: 35px;
+}
